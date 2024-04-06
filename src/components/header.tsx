@@ -12,13 +12,12 @@ function Header() {
         <div className="self-center">
           <Link href={"/"}>
             <Image
-              src="/sabomotors.png"
+              src="/Autos_tlalpan2.png"
               alt="Logo"
-              className="rounded"
-              width={100}
-              height={100}
+              className="rounded p-5"
+              width={250}
+              height={250}
             />
-            <h1 className="font-bold text-base text-center">Ixtapaluca</h1>
           </Link>
         </div>
 
@@ -52,7 +51,7 @@ function Header() {
         <div className="flex gap-0 self-center mt-4 text-xs sm:ml-auto leading-4 whitespace-nowrap">
           <Link
             href={
-              "https://www.google.com/maps/place/Seminuevos+Sabo+motors/@19.3098449,-98.9041042,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce1e5de457288b:0x9fa91922d1bbdb70!8m2!3d19.3098449!4d-98.9015293!16s%2Fg%2F11f31341m0?entry=ttu"
+              "https://www.google.com/maps/place/Autos+Certificados+Tlalpan/@19.3376187,-99.1428236,15z/data=!4m2!3m1!1s0x0:0x7899d5e7cfd3cc88?sa=X&ved=1t:2428&ictx=111"
             }
             className="flex flex-col px-2 self-center"
           >
@@ -65,7 +64,7 @@ function Header() {
             <div className="mt-1.5">Ubicación</div>
           </Link>
           <Link
-            href={"https://www.facebook.com/seminuevossabomotors/?locale=es_LA"}
+            href={"https://www.facebook.com/autostlalpan/"}
             className="flex flex-col px-2"
           >
             <img

@@ -79,20 +79,20 @@ const VehicleCatalog: React.FC = () => {
     <div className="flex flex-col self-stretch bg-white">
       <Header />
       <section className="flex flex-col justify-center w-full text-center text-white bg-black max-md:max-w-full">
-        <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-9 w-full min-h-[280px] max-md:px-5 max-md:max-w-full">
+        <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-9 w-full min-h-[300px] max-md:px-5 max-md:max-w-full">
           <img
             loading="lazy"
-            src="./bannersabomotors2.jpg"
+            src="./banner-tlalpan2.png"
             alt=""
             className="absolute inset-0 w-full h-full object-center"
           />
           <div className="flex relative flex-col px-8 pt-8 pb-8 max-md:px-5 max-md:max-w-full">
             <h1 className="text-gray-300 self-center text-6xl font-bold uppercase leading-[54.45px] max-md:max-w-full max-md:text-4xl">
-              Catálogo Sabo Motors
+              Catálogo Certificados Tlalpan
             </h1>
-            <p className="mt-6 text-base leading-6 max-md:max-w-full">
+            <p className="mt-6 text-base leading-6 max-md:max-w-full text-gray-950 font-semibold">
               Revisa el catálogo y descubre todos los detalles de nuestra gama
-              de vehículos Sabo Motors.
+              de Autos Certificados Tlalpan.
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@ const VehicleCatalog: React.FC = () => {
                         <VehicleCard {...vehicleCards[1]} />
                         <Link
                           href={
-                            "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
+                            "https://www.facebook.com/autostlalpan/photos?locale=es_LA"
                           }
                           className="self-start py-px mt-6 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid"
                         >
@@ -184,7 +184,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[2]} />
                             <Link
                               href={
-                                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
+                                "https://www.facebook.com/autostlalpan/photos?locale=es_LA"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -198,7 +198,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[3]} />
                             <Link
                               href={
-                                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
+                                "https://www.facebook.com/autostlalpan/photos?locale=es_LA"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -217,7 +217,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[4]} />
                     <Link
                       href={
-                        "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
+                        "https://www.facebook.com/autostlalpan/photos?locale=es_LA"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -226,7 +226,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[5]} />
                     <Link
                       href={
-                        "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
+                        "https://www.facebook.com/autostlalpan/photos?locale=es_LA"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -252,9 +252,7 @@ const VehicleCatalog: React.FC = () => {
             </div>
             <h3 className="text-sm">Enganche desde $6000</h3>
             <Link
-              href={
-                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
-              }
+              href={"https://www.facebook.com/autostlalpan/photos?locale=es_LA"}
               className="justify-center py-px mt-5 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid max-md:mt-10"
             >
               Ver catálogo
@@ -301,7 +299,7 @@ const VehicleCatalog: React.FC = () => {
             <div className="max-md:max-w-full">Cookies</div>
           </div>
           <div className="my-auto text-xs font-bold leading-3 capitalize">
-            © Sabo Motors 2024
+            © Autos Certificados Tlalpan 2024
           </div>
         </div>
       </footer>

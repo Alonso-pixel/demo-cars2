@@ -19,17 +19,19 @@ function About() {
       <Header />
       <div
         className={mainClasses + totalClasses}
-        style={{ backgroundImage: `url(/localsabomotors.jpg)` }}
+        style={{ backgroundImage: `url(/autostlalpan-bg.jpg)` }}
       >
         <div className="mt-10 md:mt-28">
           <p className="font-sans text-xl  text-center sm:text-2xl font-bold sm:text-gray-100 self-center shrink-0 sm:shrink sm:mb-12">
-            En Sabo Motors le brindamos crédito en seminuevos auditados,
-            seriedad y confianza a un precio competitivo. Comprometidos con la
-            mejora continua y la protección de tu patrimonio. En Sabo Motor
-            ponemos los mejores autos de sus marcas confianza en su viaje
-            automotriz, brindando asesoramiento experto. Nos esforzamos por
-            construir relaciones a largo plazo con cada cliente, basadas en la
-            honestidad, la integridad y el respeto mutuo.
+            En{" "}
+            <span className="font-extrabold text-red-600">
+              Autos Certificados Tlalpan
+            </span>{" "}
+            le brindamos la mejor experiencia en la compra de autos
+            certificados. Contamos con un amplio catálogo. También compramos tu
+            auto al mejor precio. Somos la mejor agencia multimarca de México.
+            Contamos con 20 años de servicio. Atención, calidad y precio nos
+            respaldan.
           </p>
         </div>
         <div className="flex flex-wrap self-center justify-center sm:mb-28">

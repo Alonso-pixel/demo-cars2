@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sabo Motors",
-  description: "Sabo Motors",
+  title: "Autos Certificados Tlalpan",
+  description: "Autos certificados en Tlalpan, CDMX",
 };
 
 export default function RootLayout({
